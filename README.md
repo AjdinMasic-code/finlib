@@ -7,6 +7,8 @@ Use at your own risk. The author will not, in any way whatsoever, be responsible
 # Dependencies
 yahoofinancials
 
+*some pieces of the yahoofinancials library have been passed through and are functionally the same, but through the use of memoization have been made orders of magnitude faster*
+
 probably:
 pandas
 numpy
