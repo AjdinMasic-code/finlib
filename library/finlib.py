@@ -32,7 +32,7 @@ class Company(object):
     def __set_income_statement(self):
         if str(type(self.income_statement)) == "<class 'NoneType'>":
             try:
-                self.income_statement = self.income_statement = self.financials.get_financial_stmts(self.timeframe,'income')['incomeStatementHistory'][self.ticker]
+                self.income_statement = self.financials.get_financial_stmts(self.timeframe,'income')['incomeStatementHistory'][self.ticker]
                 self.income_statement = self.__clean_statement_timestamp(self.income_statement)
             except:
                 return None
@@ -40,7 +40,7 @@ class Company(object):
     def __set_cash_flow_statement(self):
         if str(type(self.cash_flow_statement)) == "<class 'NoneType'>":
             try:
-                self.cash_flow_statement = self.cash_flow_statement = self.financials.get_financial_stmts(self.timeframe,'cash')['cashflowStatementHistory'][self.ticker]
+                self.cash_flow_statement = self.financials.get_financial_stmts(self.timeframe,'cash')['cashflowStatementHistory'][self.ticker]
                 self.cash_flow_statement = self.__clean_statement_timestamp(self.cash_flow_statement)
             except:
                 return None
