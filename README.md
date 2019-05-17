@@ -60,5 +60,15 @@ https://pypi.org/project/requests/2.7.0/
 - gross_profit(year)
 - ebit(year)
 - ebitda(year)
-
+- quick_ratio(year)
+- income_continuing_operations_margin(year)
+- net_margin(year)
+- return_on_assets(year)
+- return_on_capital(year)
+- return_on_equity(year)
+- cash_flow_operations(year)
+- free_cash_flow(year)
+- gross_profit_margin(year)
+- operating_profit_margin(year)
+- net_profit_margin(year)
 
